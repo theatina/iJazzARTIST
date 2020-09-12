@@ -1,0 +1,71 @@
+\chapter{INTRODUCTION}
+    %\section{MUSICAL COMPOSITION}
+    Musical composition is about solving problems, while following certain instructions and rules. Musical styles are defined by constraints that need algorithmic solutions. As a result, each composition can be created by making a finite sequence of steps, as in every algorithmic process. Algorithms emerge, then, as the most appropriate tool for the creation and study of music. 
+    
+    %\section{MUSIC INFORMATION RETRIEVAL}
+    A small but constantly growing field of research is the Music Information Retrieval (MIR) interdisciplinary science of retrieving music information. The applications of this field vary -- track separation and instrument recognition, automatic music transcription, automatic classification and music generation to name a few. MIR's aim is to extend the understanding and usefulness of music data, through research, development and application of computational approaches and tools. MIR is being used by businesses and academics to categorize, manipulate and even create music. %\subsection{FEATURE REPRESENTATION} 
+    In order to perform data analysis, some summarisation of the information is required, which is achieved by the process of feature extraction. This is an important step, especially in cases that deal with audio content and application of machine learning techniques. The purpose of this task is to reduce the quantity of data down to a group of variables that are easily manageable in order for the learning procedure to be performed within a reasonable time period. Some examples of features in music data are diverse representations of the key, chords, harmonies, melody, main pitch, beats per minute or rhythm of the piece.
+
+    %\section{MUSIC GENERATION}
+    Over the past decades, there has been great interest in exploring AI methodologies for music generation. Several systems have been developed with manifold characteristics and nature. Having non-adaptive rule-based generative methods as a starting point and after years of advances in computational capacity, researchers have been employing more and more complex techniques to perform the task of music generation, such as probabilistic, deep-learning and evolutionary models. The tasks performed and matters researched vary, including collaborative human-computer music generation, jazz solo improvisation accompaniment and specific-style music generation. Deep Learning techniques in particular, have been widely used in recent research, due to the adaptive capabilities and pattern learning potential of such models, for instance, simple Recurrent Neural Networks (RNNs), Long Short-Term Memory Networks (LTSMs), Gated Recurrent Units (GRUs), attention based LSTMs and Bidirectional GRUs.
+
+
+    \section{Motivation} \label{sec:motivation}
+    Music conveys feelings and presents meaning on different levels of abstraction, while the mechanisms that stimulate emotions and make music interesting to humans are related to expectation and its fulfillment or violation \cite{huron2006sweet}, considering the engagement of the brain's predictive mechanisms in response to music \cite{margulis2007surprise}. Jazz improvisation is fundamentally based on the violation of expectation, conveyed through meaningful and novel improvised melodies, in live performances of jazz soloists or ensembles. Therefore, the task of jazz improvisation provides fertile ground for the study of the interaction between the anticipation and violation of expectation, the core-mechanism of music cognition.
+
+    In order to create expressive jazz improvisations, effective communication between the collaborators is crucial, as well as certain role characteristics from each musician to be followed: 
+    
+    \begin{itemize}
+        \item \textit{Expression of original ideas.} 
+        
+        Jazz musicians build up muscle memory through statistical learning from practicing and listening of musical pieces, an attribute that helps them combine or modify the jazz licks already learned in the process, so as to create their own music. The new, improvised phrases are considered to create meaningful violations of anticipation concerning the harmonic and rythmic characteristics, as discussed above.
+        
+        \item \textit{Interaction between the improviser and accompanist.} 
+
+        During real-time jazz improvisations, the musical communication between the musicians is imperative. That is, in order to provide proper accompaniment to the improviser, the accompanist must continuously predict the intentions of the soloist and adapt to the solo improvisation.
+
+        \item \textit{Adjustment to the harmonic and rythmic characteristics of the piece.} 
+
+        While adapting to the soloist's improvisation style, the accompanist is considered to preserve the core attributes of the given jazz ``context", which stands as the common ground between the solo and the accompaniment. Commonly used alterations of the given melodies are new chords introductions, voicing additions and chord extensions, to name a few.
+        
+        
+    \end{itemize}
+    
+    As a result of the above, a real-time system able to constitute an accompanist to jazz improvisations, is imperative to feature the following:
+    
+    \begin{itemize}
+        \item[a.]   an anticipation model, related to the soloist's (human agent's) intentions.
+        \item[b.]   adaptability to the playing style of the solo improviser.
+        \item[c.]   ability of compliance to the harmonic and rythmic constraints of an input chart.
+        \item[d.]   an enriched chord voicings vocabulary, able to provide diverse and creative accompaniment.
+    \end{itemize}
+
+
+        \subsection{Research Questions} \label{sec:researchQuestions}
+        The thesis at hand, studies the characteristics of an artificial agent's accompaniment to a human jazz improviser in real-time, under a setting that simulates typical conditions of jazz improvisation, $e.g.$ defining previously agreed upon harmonic and metric constraints. Thus far, the approaches developed, generate static accompaniment to solos, compared to the methods discussed herein, proposing dynamic changes to the system's responses, which are dependable of the human solo improvisation. Deep Neural Networks have proven to be very efficient at capturing the statistical behaviour of large datasets, therefore the research purpose and questions of this thesis, focus on such models' suitability of being employed for the development of the system proposed in section \ref{sec:proposed_system} below.
+
+        More specifically, this research, aims to answer the following questions:
+
+        \begin{enumerate}
+            \item[1.] Is the proposed system able to capture the static harmonic information of a given chart in a changeable setting? 
+            \item[2.] To what degree does the deployed framework allow the system to respond to dynamic constraints dependable of the human agent?
+            \item[3.] Is it feasible, in terms of computational complexity and robustness, to apply the presented setup in real-time performance?
+        \end{enumerate}
+
+        In this manner, the main contribution of this thesis is the study of a multi-layered NN, featuring integrated static and dynamic attributes, exploited to produce predictions for the accompaniment task described above.
+        
+        
+
+    
+    \section{Thesis Structure} 
+    The rest of the thesis is organized as follows:
+
+    \hyperref[chapter:related_work]{\textit{\textbf{Related Work}}} presents the state of the art in the research field of this thesis.
+
+    \hyperref[chapter:theoretical_background]{\textit{\textbf{Theoretical Background}}} provides fundamental knowledge on concepts related to the scientific field of Machine Learning.
+
+    \hyperref[chapter:materials_methods]{\textit{\textbf{Materials and Methods}}} includes detailed technical information about the implementation of the proposed system. 
+
+    \hyperref[chapter:results]{\textit{\textbf{Results}}} presents the findings of the research procedure on the topic described in the \hyperref[sec:motivation]{\textbf{\textit{Motivation}}} section above.
+
+    \hyperref[chapter:conclusions_futurework]{\textit{\textbf{Conclusions and Future Work}}} discuss further applications and research ideas aiming to improve the presented system.

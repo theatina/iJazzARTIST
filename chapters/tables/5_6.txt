@@ -1,0 +1,32 @@
+% au privave - no melody - repetition differences -------------
+
+\begin{table}[!htb] 
+\centering
+\caption{``Quartile'' similarity in system-generated chords in ``Au Privave'' without (left) and with random solo (right) at epoch 59.}
+\begin{subtable}[h]{0.496\textwidth}
+\begin{tabular}{rrrrr}
+ & \multicolumn{4}{c}{No solo} \\
+        & 1st qrt & 2nd qrt & 3rd qrt & 4th qrt \\ \cline{2-5}
+1st qrt & 0.00 & 0.34 & 0.34 & 0.35 \\
+2nd qrt & 0.34 & 0.00 & 0.00 & 0.01 \\
+3rd qrt & 0.34 & 0.00 & 0.00 & 0.01 \\
+4th qrt & 0.35 & 0.01 & 0.01 & 0.00 \\
+\cline{2-5}
+\end{tabular}
+\end{subtable}
+\hfill
+%\quad
+% au privave - random melody - repetition differences -------------
+\begin{subtable}[h]{0.496\textwidth}
+\begin{tabular}{rrrrr}
+ & \multicolumn{4}{c}{Random solo} \\
+        & 1st qrt & 2nd qrt & 3rd qrt & 4th qrt \\ \cline{2-5}
+1st qrt & 0.00 & 1.00 & 0.99 & 0.99 \\
+2nd qrt & 1.00 & 0.00 & 0.33 & 0.34 \\
+3rd qrt & 0.99 & 0.33 & 0.00 & 0.01 \\
+4th qrt & 0.99 & 0.34 & 0.01 & 0.00 \\
+\cline{2-5}
+\end{tabular}
+\end{subtable}
+\label{tab:ap_quartile_59}
+\end{table}

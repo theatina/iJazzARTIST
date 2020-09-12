@@ -1,0 +1,5 @@
+(./media/neuron_nn.jpeg)
+https://towardsdatascience.com/a-gentle-introduction-to-neural-networks-series-part-1-2b90b87795bc 
+
+(./media/fig1.jpg)
+https://science.education.nih.gov/supplements/webversions/BrainAddiction/guide/lesson2-1.html
