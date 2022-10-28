@@ -1,0 +1,45 @@
+\begin{table}[!htb]
+\centering
+\caption{System interpretations of chart chords for ``All of Me'' without solo (top) and with random (bottom) solo at epoch 59, represented by pitch class sets. In the parentheses the number of time steps where the system generated the specific PC-set is indicated.}
+\footnotesize
+\begin{tabular}{c}
+\begin{tabular}{l}
+\begin{tabular}{l|lllll}
+\multicolumn{6}{l}{No solo} \\
+ \multicolumn{1}{c}{Chart chord} & \multicolumn{5}{c}{System interpretations} \\
+\hline
+ {[0, 4, 7, 11]} & {[0, 4, 7, 11](80)} & {[0, 3, 8](4)}       & {[2, 7, 10](12)}  & {[0, 2, 4, 5, 7](24)} &                     \\
+ {[0, 4, 7, 10]} & {[0, 5, 7, 10](1)}  & {[2, 6, 11](1)}      & {[2, 4, 6, 8](4)} & {[2, 4, 8, 11](1)}    & {[0, 4, 7, 10](25)} \\
+ {[2, 4, 8, 11]} & {[2, 6, 9, 11](1)}  & {[2, 4, 8, 11](185)} & {[0, 4, 7](4)}    & {[0, 4, 7, 10](18)}   &                     \\
+ {[1, 4, 7, 9]}  & {[1, 4, 7, 9](168)} & {[2, 5, 9](4)}       & {[2, 7, 10](4)}   &                       &                     \\
+ {[2, 5, 9]}     & {[2, 5, 9](128)}    &                      &                   &                       &                     \\
+ {[0, 4, 9]}     & {[0, 4, 9](64)}     &                      &                   &                       &                     \\
+ {[0, 2, 6, 9]}  & {[0, 2, 6, 9](64)}  &                      &                   &                       &                     \\
+ {[0, 2, 5, 9]}  & {[1, 4, 7, 9](8)}   & {[0, 2, 5, 9](72)}   &                   &                       &                     \\
+ {[2, 5, 7, 11]} & {[2, 5, 7, 11](79)} &                      &                   &                       &                     \\
+ {[0, 5, 9]}     & {[0, 5, 9](32)}     &                      &                   &                       &                     \\
+ {[0, 5, 8]}     & {[0, 5, 9](4)}      & {[0, 5, 8](28)}      &                   &                       &                     \\
+\hline \hline
+\end{tabular} \\ \\
+\begin{tabular}{l|llll}
+\multicolumn{5}{l}{Random solo} \\
+ \multicolumn{1}{c}{Chart chord} & \multicolumn{4}{c}{System interpretations} \\
+\hline
+ {[0, 4, 7, 11]} & {[4, 6, 8, 10, 11](1)} & {[4, 6, 8, 11](3)}   & {[2, 6, 11](3)}     & {[0, 4, 7, 11](80)}  \\
+  & & {[0, 3, 8](4)} & {[2, 7, 10](12)} & {[0, 2, 4, 5, 7](24)} \\
+ {[0, 4, 7, 10]} & {[0, 4, 7, 10](32)}    &                      &                     &  \\
+ {[2, 4, 8, 11]} & {[0, 4, 7](4)}         & {[2, 4, 8, 11](186)} & {[0, 4, 7, 10](18)} &  \\
+ {[1, 4, 7, 9]}  & {[1, 4, 7, 9](168)}    & {[2, 5, 9](4)}       & {[2, 7, 10](4)}     &  \\
+ {[2, 5, 9]}     & {[2, 5, 9](128)}       &                      &                     &  \\
+ {[0, 4, 9]}     & {[0, 4, 9](64)}        &                      &                     &  \\
+ {[0, 2, 6, 9]}  & {[0, 2, 6, 9](64)}     &                      &                     &  \\
+ {[0, 2, 5, 9]}  & {[1, 4, 7, 9](8)}      & {[0, 2, 5, 9](72)}   &                     &  \\
+ {[2, 5, 7, 11]} & {[2, 5, 7, 11](79)}    &                      &                     &  \\
+ {[0, 5, 9]}     & {[0, 5, 9](32)}        &                      &                     &  \\
+ {[0, 5, 8]}     & {[2, 5, 9](4)}         & {[0, 5, 8](28)}      &                     &  \\
+\hline
+\end{tabular}
+\end{tabular}
+\end{tabular}
+\label{tab:aom_chords_e59}
+\end{table}

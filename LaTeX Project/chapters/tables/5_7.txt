@@ -1,0 +1,33 @@
+% ------------------------------------ epoch 1251 ----------------------------------------
+% all of me - no melody - repetition differences -------------
+
+\begin{table}[!htb] \label{tab:aom_quartile_1251}
+\centering
+\caption{``Quartile'' similarity in system-generated chords in ``All of Me'' without (left) and with random solo (right) at epoch 1251.}
+\begin{subtable}[h]{0.496\textwidth}
+\begin{tabular}{rrrrr}
+ & \multicolumn{4}{c}{No solo} \\
+ & 1st qrt & 2nd qrt & 3rd qrt & 4th qrt \\ \cline{2-5}
+1st qrt & 0.00 & 0.53 & 0.53 & 0.54 \\
+2nd qrt & 0.53 & 0.00 & 0.00 & 0.00 \\ 
+3rd qrt & 0.53 & 0.00 & 0.00 & 0.00 \\
+4th qrt & 0.54 & 0.00 & 0.00 & 0.00 \\
+\cline{2-5}
+\end{tabular}
+\end{subtable}
+\hfill
+%\quad
+% all of me - random melody - repetition differences -------------
+\begin{subtable}[h]{0.496\textwidth}
+\begin{tabular}{rrrrr}
+ & \multicolumn{4}{c}{Random solo} \\
+ & 1st qrt & 2nd qrt & 3rd qrt & 4th qrt \\ \cline{2-5}
+1st qrt & 0.00 & 0.51 & 0.72 & 0.19 \\
+2nd qrt & 0.51 & 0.00 & 0.30 & 0.55 \\
+3rd qrt & 0.72 & 0.30 & 0.00 & 0.72 \\
+4th qrt & 0.19 & 0.55 & 0.72 & 0.00 \\
+\cline{2-5}
+\end{tabular}
+\end{subtable}
+\label{tab:aom_quartile_1251}
+\end{table}

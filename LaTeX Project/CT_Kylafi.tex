@@ -1,0 +1,320 @@
+% CT_Kylafi.tex
+%
+% Enjoy, evolve, and share!
+%
+% Compile it as follows:
+%	xelatex demo.tex
+%   bibtex demo.aux
+%   bibtex lop.aux (run this, only if you pass option 'lop' below)
+%   xelatex demo.tex && xelatex demo.tex
+%
+% Alternatively, compile it using `make -i' (see the provided Makefile).
+%
+% Check file `diphdthesis.cls' for other configuration options.
+%
+\documentclass[preface]{di_thesis}
+
+%\usepackage{graphicx}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%% User-specific package inclusions %%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{amssymb}
+\usepackage{amsmath}
+% \usepackage{url,lineno,microtype,subcaption}
+% \usepackage[onehalfspacing]{setspace}
+
+% \usepackage{biblatex}
+% \usepackage[backend=biber,
+% style=alphabetic,
+% sorting=ynt]{biblatex}
+% \addbibresource{refs.bib}
+
+\hypersetup{
+    unicode=true,                     % non-Latin characters in bookmarks
+    pdffitwindow=true,                % page fit to window when opened
+    pdfnewwindow=true,                % links in new window
+    pdfkeywords={},                   % list of keywords
+    colorlinks=true,                  % false: boxed links; true: colored links
+    linkcolor=black,                  % color of internal links
+    citecolor=black,                  % color of links to bibliography
+    filecolor=black,                  % color of file links
+    urlcolor=black,                   % color of external links
+    pdftitle={},                      % title
+    pdfauthor={},                     % author
+    pdfsubject={}                     % subject of the document
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%% User-specific package inclusions %%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%% User-specific configuration %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%% User-specific configuration %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%% Required Metadata %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% First name, last name
+%
+% \authorFirstGr{Χριστίνα-Θεανώ}
+% \authorFirstAbrGr{Χ.-Θ.} % abbreviation of first name
+% \authorMiddleGr{Ε.}   % abbreviation of father's first name
+% \authorLastGr{Κυλάφη}
+
+% \authorFirstEn{Christina-Theano}
+% \authorFirstAbrEn{C.-T.}
+% \authorMiddleEn{E.}
+% \authorLastEn{Kylafi}
+
+% \authorAMSN{1115201200077}
+
+%
+% The title of the thesis
+%
+% \titleGr{Τίτλος πτυχιακής εργασίας στα Ελληνικά}
+% \titleEn{BSc thesis title in English}
+
+%
+% Month followed by Year
+%
+% \dateGr{ΜΑΪΟΣ 2020}
+% \dateEn{MAY 2020}
+
+% %
+% % Supervisor1 info
+% %
+% \advisorGr{Βασίλης Κατσούρος}
+% \advisorRankGr{Ερευνητής Α'}
+% \advisorOrgGr{Ε.Κ. "ΑΘΗΝΑ"}
+% \advisorEn{Vasilis Katsouros}
+% \advisorRankEn{Research Director}
+% \advisorOrgEn{"ATHENA" R.C.}
+
+% %
+% % Supervisor2 info
+% %
+% \secadvisorGr{Ιωάννης Ιωαννίδης}
+% \secadvisorRankGr{Καθηγητής}
+% \secadvisorOrgGr{ΕΚΠΑ}
+% \secadvisorEn{Yannis Ioannidis}
+% \secadvisorRankEn{Professor}
+% \secadvisorOrgEn{NKUA}
+
+\input{chapters/title_date_name.tex}
+\input{chapters/supervisors.tex}
+
+
+%
+% Members of the advisory board 
+% (the first one, will be automatically taken up by the advisor)
+%
+% \boardTwoGr{Δεύτερο μέλος}
+% \boardTwoRankGr{Βαθμίδα}
+% \boardTwoOrgGr{Οργανισμός}
+% \boardTwoEn{Second member}
+% \boardTwoRankEn{Rank}
+% \boardTwoOrgEn{Organization}
+
+
+% \boardThreeGr{Τρίτο μέλος}
+% \boardThreeRankGr{Βαθμίδα}
+% \boardThreeOrgGr{Οργανισμός}
+% \boardThreeEn{Third member}
+% \boardThreeRankEn{Rank}
+% \boardThreeOrgEn{Organization}
+
+% %
+% % 7 Member examination committee
+% % (the first three will be taken up by the advisory board)
+% %
+% \examFourGr{Τέταρτο μέλος}
+% \examFourRankGr{Βαθμίδα}
+% \examFourOrgGr{Οργανισμός}
+% \examFourEn{Fourth member} 
+% \examFourRankEn{Rank}
+% \examFourOrgEn{Organization}
+
+% \examFiveGr{Πέμπτο μέλος}
+% \examFiveRankGr{Βαθμίδα}
+% \examFiveOrgGr{Οργανισμός}
+% \examFiveEn{Fifth member} 
+% \examFiveRankEn{Rank}
+% \examFiveOrgEn{Organization}
+
+% \examSixGr{Έκτο μέλος}
+% \examSixRankGr{Βαθμίδα}
+% \examSixOrgGr{Οργανισμός}
+% \examSixEn{Sixth member} 
+% \examSixRankEn{Rank}
+% \examSixOrgEn{Organization}
+
+% \examSevenGr{Έβδομο μέλος}
+% \examSevenRankGr{Βαθμίδα}
+% \examSevenOrgGr{Οργανισμός}
+% \examSevenEn{Seventh member} 
+% \examSevenRankEn{Rank}
+% \examSevenOrgEn{Organization}
+
+% %
+% % The examination date of the thesis
+% %
+% \examinationDateGr{15 Μαΐου 2019}
+% \examinationDateEn{May 15, 2010}
+%
+% Abstract, synopsis, inscription, ack, and preface pages.
+%
+% \abstractEn{This.}
+% \abstractGr{Η περίληψη στα Ελληνικά.}
+% \synopsisGr{Συνοπτική περιγραφή του διδακτορικού (5--8 σελίδες).}
+% \acksEn{}
+% \prefaceEn{}
+
+\input{chapters/acks.tex}
+% \input{chapters/preface.txt}
+
+
+%\inscriptionEn{\emph{To my dear person.}}
+
+%
+% Subject area and keywords
+%
+% \subjectAreaEn{Subject Area}
+% \subjectAreaGr{Θεματική Περιοχή}
+
+% ------------------------------------------
+\input{chapters/0_abstract_eng.tex}
+\input{chapters/0_abstract_gr.tex}
+\input{chapters/subject_area.tex}
+\input{chapters/keywords.tex}
+\input{chapters/preface.tex}
+
+%
+% Set the .bib file containing your paper publications (leave the extension out)
+%
+% This is optional, but it should be specified when option 'lop' is passed to
+% the document class.
+%
+% Then, inside the document environment, you may use the command '\nocitelop' to
+% site your papers, as you would traditionally do with the commands '\cite' or
+% '\nocite'.
+%
+% The papers are printed in reverse chronological order.
+%
+%\lopfile{mypapers/pubs}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%% Required Metadata %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Center-justify "Contents", "List of Figures" , "List of Tables"
+% Also, use Arial 14pt, bold font and capitalize
+\renewcommand{\cfttoctitlefont}{\hspace*{\fill}\bfseries\fontsize{14}{1}\selectfont\MakeUppercase}
+\renewcommand{\cftaftertoctitle}{\hspace*{\fill}}
+\renewcommand{\cftlottitlefont}{\hspace*{\fill}\bfseries\fontsize{14}{1}\selectfont\MakeUppercase}
+\renewcommand{\cftafterlottitle}{\hspace*{\fill}}
+\renewcommand{\cftloftitlefont}{\hspace*{\fill}\bfseries\fontsize{14}{1}\selectfont\MakeUppercase}
+\renewcommand{\cftafterloftitle}{\hspace*{\fill}}
+
+% Indentation for toc entries
+\cftsetindents{chapter}{0em}{2.5em}
+\cftsetindents{section}{0em}{2.5em}
+\cftsetindents{subsection}{2em}{2.5em}
+\cftsetindents{subsubsection}{3.5em}{3em}
+
+% fonts for toc entries (Arial 10pt)
+\renewcommand\cftsecfont{\bfseries\fontsize{10}{1}\selectfont}
+\renewcommand\cftsubsecfont{\fontsize{10}{1}\selectfont}
+\renewcommand\cftsubsubsecfont{\fontsize{10}{1}\selectfont}
+
+% Vertical space between toc entries
+\renewcommand\cftchapafterpnum{\vskip8pt}
+\renewcommand\cftsecafterpnum{\vskip10pt}
+\renewcommand\cftsubsecafterpnum{\vskip8pt}
+\renewcommand\cftsubsubsecafterpnum{\vskip8pt}
+
+
+\begin{document}
+\frontmatter
+
+% site my papers
+%\nocitelop{}
+
+\mainmatter
+
+% main chapters (should be given in capital letters)
+
+\input{chapters/1_intro.tex}
+
+\input{chapters/2_related_work.tex}
+
+\input{chapters/3_theor_back.tex}
+
+\input{chapters/4_materials_and_methods.tex}
+
+\input{chapters/5_results.tex}
+
+\input{chapters/6_conclusions_and_future_work.tex}
+     
+\backmatter
+
+% abbreviations table
+\abbreviations
+% \begin{center}
+% 	\renewcommand{\arraystretch}{1.5}
+% 	\begin{longtable}{ l @{\qquad} l }
+% 	\toprule
+%         \input{chapters/abbs.tex}
+% 	\bottomrule
+% 	\end{longtable}
+% \end{center}
+
+\begin{center}
+\renewcommand{\arraystretch}{1.5}
+\begin{tabularx}{0.8\textwidth} { 
+  | >{\raggedright\arraybackslash}X 
+  | >{\raggedright\arraybackslash}X 
+  | }
+ \hline
+ \input{chapters/abbs}
+\hline
+\end{tabularx}
+\end{center}
+
+
+% % appendix
+% \begin{appendix}
+% % mark the beginning of the appendix
+% \appendixstartedtrue
+
+% % add appendix line to ToC
+% \phantomsection
+% \addcontentsline{toc}{chapter}{APPENDICES}
+
+% \chapter{FIRST APPENDIX}
+% \chapter{SECOND APPENDIX}
+% \chapter{THIRD APPENDIX}
+% \end{appendix}
+
+% manually include the bibliography
+\bibliographystyle{refs_style}
+
+% set font size (10pt) for bib entries
+{\fontsize{10pt}{1}\selectfont
+\bibliography{refs}}
+
+% \bibliography{refs}
+% \printbibliography
+% include it also in ToC (do sth on your own)
+\addcontentsline{toc}{chapter}{REFERENCES}
+
+
+\end{document}

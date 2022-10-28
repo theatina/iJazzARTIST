@@ -1,0 +1,18 @@
+\textbf{MOZER'S CONCERT} - http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.92.1924&rep=rep1&type=pdf
+
+\textbf{DAVID COPE} - https://eclass.uoa.gr/modules/document/file.php/MUSIC124/Διαλέξεις/da-silva-david-cope-and-emi.pdf
+
+Seq music - https://towardsdatascience.com/how-to-generate-music-using-a-lstm-neural-network-in-keras-68786834d4c5
+
+
+https://cs.anu.edu.au/courses/CSPROJECTS/17S2/reports/u5839004.pdf
+
+http://www.jazzstandards.com/overview.definition.htm
+
+http://www.nyu.edu/classes/bello/MIR_files/1-Introduction.pdf
+
+https://ccrma.stanford.edu/~blackrse/algorithm.html
+
+https://monoskop.org/Iannis_Xenakis
+
+Cope, David (1984), New Directions in music. 4th ed. w. c. brown: dubuque, iowa. 259 pp. (HOW TO CITE THIS ? !)

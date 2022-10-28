@@ -1,0 +1,42 @@
+\begin{table}[!htb] 
+\centering
+\caption{System interpretations of chart chords for ``Au Privave'' without solo (top) and with random (bottom) solo at epoch 59, shown as pitch class sets. Numbers in parentheses show the total time steps that a system-generated PC-set occurs under the respective chart PC-set.}
+\label{tab:ap_chords_e59}
+\small
+\begin{tabular}{c}
+\begin{tabular}{l}
+\begin{tabular}{l|llll}
+\multicolumn{5}{l}{No solo} \\
+ \multicolumn{1}{c}{Chart chord} & \multicolumn{4}{c}{System interpretations} \\
+\hline
+ {[0, 5, 9]}     & {[2, 5, 10](6)}     & {[0, 5, 9](61)}     & {[0, 5, 9, 10](12)} &                    \\
+ {[2, 5, 7, 10]} & {[2, 5, 7, 10](60)} & {[0, 4, 7, 9](36)}  & {[2, 5, 9](16)}     &                    \\
+ {[0, 4, 7, 10]} & {[0, 4, 7, 10](35)} & {[2, 5, 8, 10](4)}  & {[1, 3, 7, 10](4)}  & {[0, 2, 6, 9](4)}  \\
+ {[0, 3, 7, 10]} & {[0, 3, 7, 10](16)} &                     &                     &                    \\
+ {[1, 3, 5, 9]}  & {[0, 3, 5, 9](1)}   & {[0, 3, 6, 8](2)}   & {[5, 8, 11](9)}     &                    \\
+ {[2, 5, 8, 10]} & {[2, 5, 10](1)}     & {[2, 5, 8, 10](28)} & {[3, 6, 10, 11](3)} &                    \\
+ {[1, 5, 8, 10]} & {[1, 5, 8, 10](16)} &                     &                     &                    \\
+ {[1, 3, 7, 10]} & {[2, 5, 8, 10](16)} &                     &                     &                    \\
+ {[0, 4, 7, 9]}  & {[2, 5, 7, 10](8)}  & {[0, 2, 5, 9](4)}   & {[0, 4, 7, 9](4)}   &                    \\
+ {[0, 2, 6, 9]}  & {[0, 4, 5, 9](12)}  & {[2, 5, 9, 10](4)}  & {[0, 2, 5, 9](4)}   & {[0, 2, 6, 9](12)} \\
+\hline \hline
+\end{tabular} \\ \\
+\begin{tabular}{l|llll}
+\multicolumn{5}{l}{Random solo} \\
+ \multicolumn{1}{c}{Chart chord} & \multicolumn{4}{c}{System interpretations} \\
+\hline
+ {[0, 5, 9]}     & {[2, 5, 10](3)}     & {[0, 5, 9](73)}     & {[0, 5, 9, 10](3)} &                    \\
+ {[2, 5, 7, 10]} & {[0, 5, 9](1)}      & {[2, 5, 7, 10](83)} & {[0, 4, 7, 9](12)} & {[2, 5, 9](16)}    \\
+ {[0, 4, 7, 10]} & {[0, 4, 7, 10](46)} & {[0, 2, 6, 9](1)}   &                    &                    \\
+ {[0, 3, 7, 10]} & {[0, 3, 7, 10](16)} &                     &                    &                    \\
+ {[1, 3, 5, 9]}  & {[0, 3, 5, 9](5)}   & {[0, 3, 6, 8](6)}   & {[2, 6, 9, 11](1)} & {[2, 5, 9, 11](2)} \\
+ {[2, 5, 8, 10]} & {[2, 5, 10](1)}     & {[2, 5, 8, 10](31)} &                    &                    \\
+ {[1, 5, 8, 10]} & {[1, 5, 8, 10](16)} &                     &                    &                    \\
+ {[1, 3, 7, 10]} & {[2, 5, 8, 10](4)}  & {[1, 3, 7, 10](12)} &                    &                    \\
+ {[0, 4, 7, 9]}  & {[0, 4, 7, 9](16)}  &                     &                    &                    \\
+ {[0, 2, 6, 9]}  & {[0, 2, 5, 9](2)}   & {[0, 2, 6, 9](30)}  &                    &                    \\
+\hline
+\end{tabular}
+\end{tabular}
+\end{tabular}
+\end{table}
